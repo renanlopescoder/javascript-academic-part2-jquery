@@ -1,0 +1,148 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/carrinho.css">
+	<title>JQueryII</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>JQueryII - Conteúdo Dinâmico</h1>
+	<div class="botao botao-propaganda">
+	  <a href="" id="esconde-propagandas" class="alternaPropaganda">Esconder Propagandas</a>
+  	<a href="" id="mostra-propagandas" class="alternaPropaganda">Mostrar Propagandas</a>
+  </div>
+	<div class="carrinho">
+		<h2>Carrinho entrega em Sao Paulo</h2>
+		<table>
+			<thead>
+				<tr>
+					<td></td>
+					<td>Nome</td>
+					<td>Quantidade</td>
+					<td>Valor</td>
+					<td>Total</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img class="image" src="imagens/tablet.jpg"></td>
+					<td>Tablet miPad 18</td>
+					<td>1</td>
+					<td>499.99</td>
+					<td class="valor-total">499.99</td>
+					<td><a class="remove-item" href="">Remover</a></td>
+				</tr>
+				<tr>
+					<td><img class="image" src="imagens/telefone.png"></td>
+					<td>Telefone miPhone 18</td>
+					<td>2</td>
+					<td>199.99</td>
+					<td class="valor-total">399.98</td>
+					<td><a class="remove-item" href="">Remover</a></td>
+				</tr>
+				<tr>
+					<td><img class="image" class="image" src="imagens/sapato.jpg"></td>
+					<td>Sapato</td>
+					<td>1</td>
+					<td>99.99</td>
+					<td class="valor-total">99.99</td>
+					<td><a class="remove-item" href="">Remover</a></td>
+				</tr>
+				<tr>
+					<td><img class="image" src="imagens/monitor.jpg"></td>
+					<td>Monitor Sam 21</td>
+					<td>1</td>
+					<td>299.00</td>
+					<td class="valor-total">299.00</td>
+					<td><a class="remove-item" href="">Remover</a></td>
+				</tr>
+				<tr>
+					<td><img class="image" src="imagens/teclado.jpg"></td>
+					<td>Teclado com fio preto </td>
+					<td>1</td>
+					<td>100.00</td>
+					<td class="valor-total">100.00</td>
+					<td><a class="remove-item" href="">Remover</a></td>
+				</tr>
+			</tbody>
+		</table>
+	<div>
+		<input type="button" class="undo botao" value="Undo">
+	</div>
+		<div class="resumo">
+			Valor Total: <span class="totalGeral">0</span>
+			<br>
+			Total Itens: <span class="totalItens">0</span>
+		</div>
+	</div>
+	<div class="carrinho">
+		<h2>Carrinho entrega em Natal</h2>
+		<table>
+			<thead>
+				<tr>
+					<td></td>
+					<td>Nome</td>
+					<td>Quantidade</td>
+					<td>Valor</td>
+					<td>Total</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img class="image" src="imagens/camiseta.jpg"></td>
+					<td>Camiseta G</td>
+					<td>1</td>
+					<td>25.00</td>
+					<td class="valor-total">25.00</td>
+					<td><a class="remove-item" href="">Remover</a></td>
+				</tr>
+			</tbody>
+		</table>
+		<div>
+			<input type="button" class="undo botao" value="Undo">
+		</div>
+		<div class="resumo">
+			Valor Total: <span class="totalGeral">0</span>
+			<br>
+			Total Itens: <span class="totalItens">0</span>
+		</div>
+	</div>
+	<div class="carrinho">
+		<h2>Carrinho entrega Rio de Janeiro</h2>
+		<table>
+			<thead>
+				<tr>
+					<td></td>
+					<td>Nome</td>
+					<td>Quantidade</td>
+					<td>Valor</td>
+					<td>Total</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img class="image" src="imagens/mouse.jpg"></td>
+					<td>Mouse wireless</td>
+					<td>1</td>
+					<td>199.00</td>
+					<td class="valor-total">199.00</td>
+					<td><a class="remove-item" href="">Remover</a></td>
+				</tr>
+			</tbody>
+		</table>
+		<div>
+			<input type="button" class="undo botao" value="Undo">
+		</div>
+		<div class="resumo">
+			Valor Total: <span class="totalGeral">0</span>
+			<br>
+			Total Itens: <span class="totalItens">0</span>
+		</div>
+	</div>
+  <script src="javascript/jquery-2.2.1.min.js"></script>
+	<script src="javascript/block/carrinho/carrinho.js"></script>
+</body>
+<footer class="rodape-pagina">
+		&copy; renanslopes8 2016
+</footer>
+</body>
+</html>
