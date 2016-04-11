@@ -1,4 +1,4 @@
-![jQuery Logo](http://renanslopes8.com.br/projetosgit/readme-img/jquery-logo.png)
+![jQuery Logo](http://renanslopes8.com.br/projetosgit/readme-img/jquery_logo.png)
 # JavaScript-framework-jQuery_II #
 
 ##jQuery##
